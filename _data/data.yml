@@ -1,6 +1,6 @@
 sidebar:
     educacion: True
-    localizacion-sidebar: "left" # left right
+    localizacion-sidebar: left # left right
 
 perfil:
   nombre: José Manuel Simón Ramos
@@ -8,10 +8,10 @@ perfil:
   avatar: avatar.JPG  
 
 contacto:
-  titulo-seccion: "Contacto"
+  titulo-seccion: Contacto
   elementos:
     email: jmsimonramos@gmail.com
-    telefono: "+34 690 149 454"
+    telefono: +34 690 149 454
     linkedin: jose-manuel-simon-ramos
     github: jmsimonramos
     telegram: # add your nickname without '@' sign
@@ -21,7 +21,7 @@ contacto:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: "https://drive.google.com/file/d/1Y2m71lqW49k5NY8HUYAmk3xvWTlDioWh/view?usp=sharing"
+    pdf: https://drive.google.com/file/d/1Y2m71lqW49k5NY8HUYAmk3xvWTlDioWh/view?usp=sharing
 
 idiomas:
   titulo-seccion: Idiomas
@@ -46,23 +46,25 @@ sobre-mi:
       
       Soy un aficionado de la informática y de las nuevas tecnologías, además de todo lo relacionado con el Big Data y el Machine Learning.
 educacion:
-    titulo-seccion: "Educación"  
+    titulo-seccion: Educación  
     elementos:
       - titulo: Máster en Inteligencia de Negocio y Big Data en Entornos Seguros
+        enlace:
         universidad: Universidad de Valladolid
         periodo: 2020 - 2021
 
       - titulo: Grado en Ingeniería Informática de Servicios y Aplicaciones
+        enlace:
         universidad: Universidad de Valladolid
         periodo: 2016 - 2020
 
 experiencia-profesional:
-    titulo-seccion: "Experiencia Profesional"
+    titulo-seccion: Experiencia Profesional
     elementos:
       - puesto: Becario de Investigación
         periodo: octubre 2020 - julio 2021
         empresa: Universidad de Valladolid
-        enlace: "https://drive.google.com/file/d/1ncvqN8PbQpz6U6V5U_wzsoqxwRmVdYqc/view?usp=sharing"
+        enlace: https://drive.google.com/file/d/1ncvqN8PbQpz6U6V5U_wzsoqxwRmVdYqc/view?usp=sharing
         detalles: |
           Becario de Investigación en el Proyecto AIRPORTS: Construcción de un prototipo de plataforma Big Data para el análisis de la eficiencia operacional de vuelos basadas en trayectorias. 
 
@@ -74,7 +76,7 @@ experiencia-profesional:
       - puesto: Becario de Investigación
         periodo: abril 2020 - junio 2020
         empresa: Universidad de Valladolid
-        enlace: "https://drive.google.com/file/d/1nQ4Nze8lInJ-j-9blb6WW3l145PIL9KW/view?usp=sharing"
+        enlace: https://drive.google.com/file/d/1nQ4Nze8lInJ-j-9blb6WW3l145PIL9KW/view?usp=sharing
         detalles: |
           Becario de investigación en el contrato de investigación (Art.83) "SISTEMA DE DEEP LEARNING PARA LA OFUSCACIÓN DE DATOS PERSONALES  SUJETOS A RGPD". 
 
@@ -86,32 +88,32 @@ proyectos:
     titulo-seccion: Proyectos
     elementos:
       - titulo: "TFM: Implementación de una herramienta basada en PLN para la detección y anonimización de datos personales en documentos."
-        enlace: "https://uvadoc.uva.es/handle/10324/49995"
-        descripcion: "Proyecto Fin de Máster enfocado a la implementación de una herramienta desarrollada en Python en la que se hace uso de modelos basados en Deep Learning para tareas de Procesamiento del Lenguaje Natural. El objetivo del proyecto consiste en extraer el texto de documentos administrativos y detectar la información de carácter personal que pudiera haber en ellos. Una vez se han detectado esa información, se realiza un proceso de anonimización de los datos utilizando mecanismos de sustitución propios basados en diccionarios y en grafos."
+        enlace: https://uvadoc.uva.es/handle/10324/49995
+        descripcion: Proyecto Fin de Máster enfocado a la implementación de una herramienta desarrollada en Python en la que se hace uso de modelos basados en Deep Learning para tareas de Procesamiento del Lenguaje Natural. El objetivo del proyecto consiste en extraer el texto de documentos administrativos y detectar la información de carácter personal que pudiera haber en ellos. Una vez se han detectado esa información, se realiza un proceso de anonimización de los datos utilizando mecanismos de sustitución propios basados en diccionarios y en grafos.
         periodo: junio 2021 - septiembre 2021
       
-      - titulo: "TFG: Selección y Optimización de Algoritmos para la predicción de configuraciones en aeropuertos"
-        enlace: "https://uvadoc.uva.es/handle/10324/41331"
-        descripcion: "Proyecto destinado a probar y optimizar diferentes modelos de aprendizaje automático, con el objetivo de tratar la problemática de la elección de la configuración de pistas en el Aeropuerto de Madrid Barajas."
+      - titulo: "TFG: Selección y Optimización de Algoritmos para la predicción de configuraciones en aeropuertos."
+        enlace: https://uvadoc.uva.es/handle/10324/41331
+        descripcion: Proyecto destinado a probar y optimizar diferentes modelos de aprendizaje automático, con el objetivo de tratar la problemática de la elección de la configuración de pistas en el Aeropuerto de Madrid Barajas.
         periodo: enero 2020 - julio 2020
      
       - titulo: UVAgile
-        enlace: "https://drive.google.com/file/d/1wNwFFf9JnnlR5G8RrCZj9nBeO7rozSI0/view?usp=sharing"
-        descripcion: "Proyecto de Innovación Docente para mejorar la calidad de la docencia utilizando metodologías ágiles."
+        enlace: https://drive.google.com/file/d/1wNwFFf9JnnlR5G8RrCZj9nBeO7rozSI0/view?usp=sharing
+        descripcion: Proyecto de Innovación Docente para mejorar la calidad de la docencia utilizando metodologías ágiles.
         periodo: enero 2019 - febrero 2022
 
 publicaciones:
     titulo-seccion: Publicaciones 
     elementos:
       - titulo: "Vida más allá de MySQL: InfluxDB y las Bases de Datos de Series Temporales."
-        enlace: "https://www.dropbox.com/s/sy8ly6qq00lkpud/Segobit-V06-N08-P032.pdf?dl=0"
-        autor: "José Manuel Simón Ramos, Petar Georgiev Aleksandrov"
+        enlace: https://www.dropbox.com/s/sy8ly6qq00lkpud/Segobit-V06-N08-P032.pdf?dl=0
+        autor: José Manuel Simón Ramos, Petar Georgiev Aleksandrov
         lugar-publicacion: SEGO-BIT (Número 8); ISSN:2386-866X · 8 jul. 2019
 
       - titulo: "Marcas de agua y huellas digitales: qué son y por qué son importantes en la actualidad."
-        enlace: "https://www.dropbox.com/s/bda4tgyyblulqvt/SEGOBIT-V05-N06-P020.pdf?dl=0"
-        autor: "José Manuel Simón Ramos, Álvaro Fuentes Valverde"
-        lugar-publicacion: "SEGO-BIT (Número 6); ISSN:2386-866X · 6 feb. 2018"
+        enlace: https://www.dropbox.com/s/bda4tgyyblulqvt/SEGOBIT-V05-N06-P020.pdf?dl=0
+        autor: José Manuel Simón Ramos, Álvaro Fuentes Valverde
+        lugar-publicacion: SEGO-BIT (Número 6); ISSN:2386-866X · 6 feb. 2018
         
 hard-skills:
     titulo-seccion: Habilidades Profesionales
@@ -139,47 +141,47 @@ soft-skills:
       - nombre: Dedicación
       - nombre: Mentalidad de Crecimiento
 premios:
-  titulo-seccion: "Colaboraciones y Premios"
+  titulo-seccion: Colaboraciones y Premios
   elementos:
-    - nombre: "Premio Extraordinario Fin de Máster" 
+    - nombre: Premio Extraordinario Fin de Máster 
       fecha: noviembre 2021
-      enlace: "https://drive.google.com/file/d/1JAvHwIhiVqeWO6i3gQ87qOIzgZtbwA-r/view?usp=sharing"
+      enlace: https://drive.google.com/file/d/1JAvHwIhiVqeWO6i3gQ87qOIzgZtbwA-r/view?usp=sharing
       detalles: Premio Extraordinario en el Máster Universitario en Inteligencia de Negocio y Big Data en Entornos Seguros en el Curso 2020/21.
 
-    - nombre: "Integrante del Ranking Nacional 2020 como uno de los mejores graduados en Ingeniería Informática de España" 
+    - nombre: Integrante del Ranking Nacional 2020 como uno de los mejores graduados en Ingeniería Informática de España 
       fecha: octubre 2020
-      enlace: "https://drive.google.com/file/d/1yrMujmsLIE-Bayw-Cochkz9nViMiVISO/view?usp=sharing"
+      enlace: https://drive.google.com/file/d/1yrMujmsLIE-Bayw-Cochkz9nViMiVISO/view?usp=sharing
       detalles: Integrante del Ranking Nacional 2020 en Ingeniería Informática realizado por la *"Sociedad Española de Excelencia Académica (SEDEA)"* en el  se recogen a los mejores graduados de España en cada una de las titulaciones.
     
     - nombre: Premios UVa-Santander de Excelencia en Grado
       fecha: septiembre 2020
-      enlace: "https://drive.google.com/file/d/1R6fOvSrIW7QdrrIvWU8qIS5GEQX0W5wk/view?usp=sharing"
+      enlace: https://drive.google.com/file/d/1R6fOvSrIW7QdrrIvWU8qIS5GEQX0W5wk/view?usp=sharing
       detalles: Premios otorgados por el Banco Santander en los que se reconoce la excelencia de los egresados en la Universidad de Valladolid.
     
     - nombre: Primer Premio “Hackerfest 2020” 
       fecha: marzo 2020
-      enlace: "https://drive.google.com/file/d/1NsJ2E_WYUHEsHem0ROaoNzu4Hxp0598j/view?usp=sharing"
+      enlace: https://drive.google.com/file/d/1NsJ2E_WYUHEsHem0ROaoNzu4Hxp0598j/view?usp=sharing
       detalles: Hackathon celebrado en la Universidad de Valladolid en el que se planteó la creación de un producto software centrado en la resolución de distintos retos de caracter medioambiental.
 
     - nombre: Ponente en el VIII Encuentro de Valores Democráticos y Fuerzas Armadas 
       fecha: noviembre 2019
-      enlace: "https://drive.google.com/file/d/1ul6gcgqMQIw09XDwAK6yd8pb7YJLgj8H/view?usp=sharing"
+      enlace: https://drive.google.com/file/d/1ul6gcgqMQIw09XDwAK6yd8pb7YJLgj8H/view?usp=sharing
       detalles: Evento organizado por la Universidad de Valladolid con la temática “La dimensión ética de la Inteligencia Artificial”. 
     
     - nombre: Colaborador “SPIRE” 2019 
       fecha: octubre 2019
-      enlace: "https://drive.google.com/file/d/1HxLpZIFkSHzRbQA5bSZZhyKiAdN3Rv1e/view?usp=sharing"
+      enlace: https://drive.google.com/file/d/1HxLpZIFkSHzRbQA5bSZZhyKiAdN3Rv1e/view?usp=sharing
       detalles: Colaborador y asistente de la 26º edición del Congreso Internacional “SPIRE” organizado por la Universidad de Valladolid y la Universidad de A Coruña. 
     
     - nombre: Ponente “Segovia Tech Train” 
       fecha: marzo 2019 - Actualidad
-      enlace: "https://drive.google.com/file/d/1z7meW2PaBa1RSUzC903_IVMBhEtAf6uY/view?usp=sharing"
+      enlace: https://drive.google.com/file/d/1z7meW2PaBa1RSUzC903_IVMBhEtAf6uY/view?usp=sharing
       detalles: Comunidad creada por profesionales del mundo de la informática cuyo  objetivo es establecer un foro en el que se traten experiencias e inquietudes teconológicas, fomentando el aprendizeja colectivo y la retroalimentación. 
 cursos:
-  titulo-seccion: "Cursos"
+  titulo-seccion: Cursos
   elementos:
     - nombre: Certificate Expert Agile Coach
-      enlace: "https://drive.google.com/file/d/1WevUI62uCXhuPQaXfPQ7FgvEPIhc3eN1/view?usp=sharing"
+      enlace: https://drive.google.com/file/d/1WevUI62uCXhuPQaXfPQ7FgvEPIhc3eN1/view?usp=sharing
       fecha: mayo 2021
     - nombre: Certificate Expert Scrum Master
       enlace: https://www.europeanscrum.org/european-scrum-jose-manuel-simon-ramos.html?lang=en
@@ -192,7 +194,7 @@ cursos:
       fecha: septiembre 2019
 
 voluntariado:
-  titulo-seccion: "Voluntariado"
+  titulo-seccion: Voluntariado
   elementos:
     - nombre: Monitor Python "Club de Jóvenes Programadores"
       entidad: Universidad de Valladolid
@@ -208,6 +210,6 @@ voluntariado:
 
     - nombre: Monitor "Scratch Day"
       entidad: Universidad de Valladolid
-      enlace: "https://drive.google.com/file/d/1ENhQZYapE8VmnzzNYn3ip6MVuD0ni5s8/view?usp=sharing"
-      fecha: mayo 2017
+      enlace: https://drive.google.com/file/d/1ENhQZYapE8VmnzzNYn3ip6MVuD0ni5s8/view?usp=sharing
+      fecha: mayo 2018
       descripcion: Jornada de talleres, juegos y actividades destinado a niños entre 6 y 15 años para que se introduzcan en el mundo de la programación a través del lenguaje "Scratch".

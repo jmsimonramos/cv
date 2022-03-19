@@ -12,7 +12,11 @@
 
     {% for curso in cursos.elementos %}
     <div class="item">
-      <h4 class="degree"><a target="_blank" href="{{ curso.link }}">{{ curso.nombre }}</a></h4>
+      {% if curso.enlace %}
+        <h4 class="degree"><a target="_blank" href="{{ curso.enlace }}">{{ curso.nombre }}</a></h4>
+      {% else %}
+        <h4 class="degree">{{ curso.nombre }}</h4>
+      {% endif %}
       <h5 class="time">{{ curso.fecha }}</h5>
     </div>
     {% endfor %}

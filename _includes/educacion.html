@@ -12,7 +12,11 @@
 
     {% for educacion in educacion.elementos %}
     <div class="item">
-      <h4 class="degree">{{ educacion.titulo }}</h4>
+      {% if educacion.enlace %}
+        <h4 class="degree"><a target="_blank" href="{{ educacion.enlace }}">{{ educacion.titulo }}</a></h4>
+      {% else %}
+        <h4 class="degree">{{ educacion.titulo }}</h4>
+      {% endif %}
       <h5 class="meta">{{ educacion.universidad }}</h5>
       <div class="time">{{ educacion.periodo }}</div>
     </div><!--//item-->
