@@ -1,0 +1,36 @@
+{% assign proyectos = site.data.data.proyectos %}
+{% if proyectos.elementos %}
+<section class="section projects-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-archive fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ proyectos.titulo-seccion }}
+  </h2>
+
+  {% for proyecto in proyectos.elementos %}
+  <div class="item">
+
+    <div class="meta">
+      <div class="upper-row">
+        {% if proyecto.enlace %}
+        <h3 class="project-title"><a target="_blank" href="{{ project.link }}">{{ proyecto.titulo }}</a></h3>
+        {% else %}
+        <h3 class="project-title">{{ proyecto.titulo }}</h3>
+        {% endif %}
+      </div>
+
+      <div class="project-time">{{ proyecto.periodo }}</div>
+      <div class="details">{{ proyecto.descripcion }}</div>
+
+    </div>
+
+  </div>
+  <hr>
+  {% endfor %}
+
+</section>
+<!--//section-->
+{% endif %}

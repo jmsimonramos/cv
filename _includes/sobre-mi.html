@@ -1,0 +1,18 @@
+{% assign sobre-mi = site.data.data.sobre-mi %}
+{% if sobre-mi %}
+<section class="section summary-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-user fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ sobre-mi.titulo-seccion }}
+  </h2>
+
+  <div class="summary">
+    {{ sobre-mi.descripcion | markdownify }}
+  </div><!--//summary-->
+    
+</section><!--//section-->
+{% endif %}

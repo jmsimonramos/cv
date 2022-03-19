@@ -1,0 +1,25 @@
+title: José Manuel Simón Ramos
+logo: "favicon.ico"
+url: 'https://jmsimonramos.github.io/cv/'
+
+description: Currículum José Manuel Simón Ramos
+theme_skin: blue # blue turquoise green berry orange ceramic
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+# Build settings
+compress-site: yes
+
+encoding: "utf-8"
+compress_html: # - http://jch.penibelst.de/
+  clippings: all
+  ignore:
+    envs: development
+
+# Development Settings
+port: 1000
+host: 0.0.0.0
+safe: false

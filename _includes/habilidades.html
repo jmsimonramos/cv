@@ -1,0 +1,53 @@
+{% assign hard-skills = site.data.data.hard-skills %}
+{% assign soft-skills = site.data.data.soft-skills %}
+
+{% if hard-skills.elementos %}
+<section class="skills-section section">
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ hard-skills.titulo-seccion }}
+  </h2>
+
+  <div class="skillset">
+
+    {% for hard-skill in hard-skills.elementos %}
+    <div class="item">
+
+      <h3 class="level-title">{{ hard-skill.nombre }}</h3>
+
+      <div class="level-bar">
+        <div class="level-bar-inner" data-level="{{ hard-skill.nivel }}">
+        </div>
+      </div><!--//level-bar-->
+
+    </div><!--//item-->
+    {% endfor %}
+
+  </div>
+
+</section><!--//skills-section-->
+{% endif %}
+
+{% if soft-skills.elementos %}
+<section class="skills-section section">
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-users fa-stack-1x fa-inverse"></i>    
+    </span>
+    {{ soft-skills.titulo-seccion }}
+  </h2>
+
+  <div class="soft-skillset">
+
+    {% for soft-skill in soft-skills.elementos %}
+    <button disabled class="soft-skill-button" type="button">{{soft-skill.nombre}}</button>
+    {% endfor %}
+
+  </div>
+
+</section><!--//cv-skills-section-->
+{% endif %}

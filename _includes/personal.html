@@ -1,0 +1,37 @@
+{% assign sidebar = site.data.data.sidebar %}
+{% assign perfil = site.data.data.perfil %}
+
+{% if sidebar.localizacion-sidebar == 'left' %}
+  <div class="sidebar-wrapper" style="order: 0;">
+{% else %}
+  <div class="sidebar-wrapper" style="order: 1;">
+{% endif %}
+
+  <div class="profile-container">
+
+    {% if perfil.nombre %}
+    <img class="avatar" src="{{ site.baseurl }}/assets/images/{{ perfil.avatar }}" alt="profile picture" />
+    {% endif %}
+
+    {% if perfil.nombre %}
+    <h1 class="name">{{ perfil.nombre }}</h1>
+    {% endif %}
+
+    {% if perfil.descripcion %}
+    <h3 class="tagline">{{ perfil.descripcion }}</h3>
+    {% endif %}
+
+  </div><!--//profile-container-->
+
+  {% include contacto.html %}
+
+  {% if sidebar.educacion %}
+    {% include educacion.html %}
+  {% endif %}
+
+  {% include cursos.html %}
+
+  {% include idiomas.html %}
+  {% include intereses.html %}
+  
+</div><!--//sidebar-wrapper-->

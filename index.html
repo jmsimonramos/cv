@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+{% include sobre-mi.html %}
+
+{% unless site.data.data.sidebar.educacion %}
+  {% include educacion.html %}
+{% endunless %}
+
+{% include experiencia.html %}
+
+{% include proyectos.html %}
+
+{% include publicaciones.html %}
+
+{% include premios.html %}
+
+{% include voluntariado.html %}
+
+{% include habilidades.html %}
