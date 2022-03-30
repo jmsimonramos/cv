@@ -18,6 +18,8 @@ contacto:
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
     pdf: 
+      titulo: Download PDF
+      enlace: https://drive.google.com/file/d/1eW0WN7dmSxyyDGxDJKdSdNBkEO_dNa6p/view?usp=sharing 
 
 idiomas:
   titulo-seccion: Languages

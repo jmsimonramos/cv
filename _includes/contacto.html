@@ -102,7 +102,7 @@
 
     {% if contacto.elementos.pdf %}
       <li class="pdf"><i class="fas fa-file-pdf"></i>
-        <a href="{{ contacto.elementos.pdf }}" target="_blank"> Descargar CV</a>
+        <a href="{{ contacto.elementos.pdf.enlace }}" target="_blank">{{ contacto.elementos.pdf.titulo }}</a>
       </li>
     {% endif %}
 
