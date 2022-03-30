@@ -1,4 +1,8 @@
-{% assign sobre-mi = site.data.data.sobre-mi %}
+{% if site.idioma == "ESP" %}
+  {% assign sobre-mi = site.data.dataESP.sobre-mi %}
+{% else %}
+  {% assign sobre-mi = site.data.dataING.sobre-mi %}
+{% endif %}
 {% if sobre-mi %}
 <section class="section summary-section">
 

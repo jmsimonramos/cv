@@ -1,4 +1,8 @@
-{% assign proyectos = site.data.data.proyectos %}
+{% if site.idioma == "ESP" %}
+  {% assign proyectos = site.data.dataESP.proyectos %}
+{% else %}
+  {% assign proyectos = site.data.dataING.proyectos %}
+{% endif %}
 {% if proyectos.elementos %}
 <section class="section projects-section">
 

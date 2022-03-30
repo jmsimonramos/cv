@@ -1,4 +1,9 @@
-{% assign idiomas = site.data.data.idiomas %}
+{% if site.idioma == "ESP" %}
+  {% assign idiomas = site.data.dataESP.idiomas %}
+{% else %}
+  {% assign idiomas = site.data.dataING.idiomas %}
+{% endif %}
+
 {% if idiomas.elementos %}
 <div class="languages-container container-block">
 

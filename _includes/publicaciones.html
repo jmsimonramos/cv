@@ -1,4 +1,8 @@
-{% assign publicaciones = site.data.data.publicaciones %}
+{% if site.idioma == "ESP" %}
+  {% assign publicaciones = site.data.dataESP.publicaciones %}
+{% else %}
+  {% assign publicaciones = site.data.dataING.publicaciones %}
+{% endif %}
 {% if publicaciones.elementos %}
 <section class="section publications-section">
 

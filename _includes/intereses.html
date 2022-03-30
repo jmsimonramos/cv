@@ -1,4 +1,9 @@
-{% assign intereses = site.data.data.intereses %}
+{% if site.idioma == "ESP" %}
+  {% assign intereses = site.data.dataESP.intereses %}
+{% else %}
+  {% assign intereses = site.data.dataING.intereses %}
+{% endif %}
+
 {% if intereses.elementos %}
 <div class="interests-container container-block">
 

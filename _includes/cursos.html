@@ -1,4 +1,8 @@
-{% assign cursos = site.data.data.cursos %}
+{% if site.idioma == "ESP" %}
+  {% assign cursos = site.data.dataESP.cursos %}
+{% else %}
+  {% assign cursos = site.data.dataING.cursos %}
+{% endif %}
 {% if cursos.elementos %}
 
 <div class="cursos-container container-block">

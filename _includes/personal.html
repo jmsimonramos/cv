@@ -1,7 +1,12 @@
-{% assign sidebar = site.data.data.sidebar %}
-{% assign perfil = site.data.data.perfil %}
+{% if site.idioma == "ESP" %}
+  {% assign sidebar = site.data.dataESP.sidebar %}
+  {% assign perfil = site.data.dataESP.perfil %}
+{% else %}
+  {% assign sidebar = site.data.dataING.sidebar %}
+  {% assign perfil = site.data.dataING.perfil %}
+{% endif %}
 
-{% if sidebar.localizacion-sidebar == 'left' %}
+{% if site.sidebar.localizacion-sidebar == 'left' %}
   <div class="sidebar-wrapper" style="order: 0;">
 {% else %}
   <div class="sidebar-wrapper" style="order: 1;">
@@ -25,7 +30,7 @@
 
   {% include contacto.html %}
 
-  {% if sidebar.educacion %}
+  {% if site.sidebar.educacion %}
     {% include educacion.html %}
   {% endif %}
 

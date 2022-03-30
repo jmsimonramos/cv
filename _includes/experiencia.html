@@ -1,4 +1,8 @@
-{% assign experiencias = site.data.data.experiencia-profesional %}
+{% if site.idioma == "ESP" %}
+  {% assign experiencias = site.data.dataESP.experiencia-profesional %}
+{% else %}
+  {% assign experiencias = site.data.dataING.experiencia-profesional %}
+{% endif %}
 {% if experiencias.elementos %}
 <section class="section experiences-section">
   <h2 class="section-title">

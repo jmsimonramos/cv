@@ -1,6 +1,11 @@
-{% assign educacion = site.data.data.educacion %}
+{% if site.idioma == "ESP" %}
+  {% assign educacion = site.data.dataESP.educacion %}
+{% else %}
+  {% assign educacion = site.data.dataING.educacion %}
+{% endif %}
 {% if educacion.elementos %}
-  {% if site.data.data.sidebar.educacion %}
+
+  {% if site.sidebar.educacion %}
   <div class="education-container container-block">
     <h2 class="container-block-title">
       <span class="fa-stack fa-xs">

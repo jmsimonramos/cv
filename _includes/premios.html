@@ -1,4 +1,9 @@
-{% assign premios = site.data.data.premios %}
+{% if site.idioma == "ESP" %}
+  {% assign premios = site.data.dataESP.premios %}
+{% else %}
+  {% assign premios = site.data.dataING.premios %}
+{% endif %}
+
 {% if premios.elementos %}
 <section class="section premios-section">
   <h2 class="section-title">

@@ -1,5 +1,10 @@
-{% assign hard-skills = site.data.data.hard-skills %}
-{% assign soft-skills = site.data.data.soft-skills %}
+{% if site.idioma == "ESP" %}
+  {% assign hard-skills = site.data.dataESP.hard-skills %}
+  {% assign soft-skills = site.data.dataESP.soft-skills %}
+{% else %}
+  {% assign hard-skills = site.data.dataING.hard-skills %}
+  {% assign soft-skills = site.data.dataING.soft-skills %}
+{% endif %}
 
 {% if hard-skills.elementos %}
 <section class="skills-section section">

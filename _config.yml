@@ -1,9 +1,14 @@
 title: José Manuel Simón Ramos
 logo: "favicon.ico"
 url: 'https://jmsimonramos.github.io/cv/'
+idioma: ESP # ESP, ING
 
 description: Currículum José Manuel Simón Ramos
 theme_skin: blue # blue turquoise green berry orange ceramic
+
+sidebar:
+    educacion: True
+    localizacion-sidebar: left # left right
 
 # Sass/SCSS
 sass:

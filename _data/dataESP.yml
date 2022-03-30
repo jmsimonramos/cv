@@ -1,7 +1,3 @@
-sidebar:
-    educacion: True
-    localizacion-sidebar: left # left right
-
 perfil:
   nombre: José Manuel Simón Ramos
   descripcion: Ingeniero Informático | Máster en Big Data & Business Intelligence
@@ -21,7 +17,7 @@ contacto:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: https://drive.google.com/file/d/1Y2m71lqW49k5NY8HUYAmk3xvWTlDioWh/view?usp=sharing
+    pdf: https://drive.google.com/file/d/1I2pyoUC9p9Oq9an8slwoyW2Wrwrdlnzc/view?usp=sharing
 
 idiomas:
   titulo-seccion: Idiomas

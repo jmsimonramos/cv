@@ -1,4 +1,8 @@
-{% assign voluntariado = site.data.data.voluntariado %}
+{% if site.idioma == "ESP" %}
+  {% assign voluntariado = site.data.dataESP.voluntariado %}
+{% else %}
+  {% assign voluntariado = site.data.dataING.voluntariado %}
+{% endif %}
 {% if voluntariado.elementos %}
 <section class="section voluntariado-section">
   <h2 class="section-title">

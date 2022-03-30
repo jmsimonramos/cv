@@ -1,4 +1,8 @@
-{% assign contacto = site.data.data.contacto %}
+{% if site.idioma == "ESP" %}
+  {% assign contacto = site.data.dataESP.contacto %}
+{% else %}
+  {% assign contacto = site.data.dataING.contacto %}
+{% endif %}
 {% if contacto.elementos %}
 
 <div class="contact-container container-block">
