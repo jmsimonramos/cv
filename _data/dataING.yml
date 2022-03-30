@@ -42,9 +42,10 @@ intereses:
 sobre-mi:
     titulo-seccion: About me
     descripcion: |
-      My name is José Manuel Simón Ramos, I'm a graduate in Computer Science Engineering of Services and Applications as well as graduated in the Master in Business Intelligence and Big Data in Secure Environments by the University of Valladolid. 
+      My name is José Manuel Simón Ramos, I am a graduate in Computer Science Engineering and graduated in the Master in Business Intelligence & Big Data in Secure Environments by the University of Valladolid. 
       
-      I'm a fan of computer science and new technologies, as well as everything related to Big Data and Machine Learning.
+      I love everything related to computer engineering and new technologies, in special Big Data and Machine Learning.
+
 educacion:
     titulo-seccion: Education  
     elementos:
