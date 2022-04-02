@@ -24,5 +24,5 @@ function cambiarIdiomaING(){
     window.location.replace("cv-ing.html")
 }
 function cambiarIdiomaESP(){
-    window.location.replace("cv-esp.html");
+    window.location.replace("index.html");
 }
