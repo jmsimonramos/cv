@@ -19,3 +19,10 @@ jQuery(document).ready(function($) {
     
 
 });
+
+function cambiarIdiomaING(){
+    window.location.replace("https://jmsimonramos.github.io/cv-ing/")
+}
+function cambiarIdiomaESP(){
+    window.location.replace("https://jmsimonramos.github.io/cv/");
+}
