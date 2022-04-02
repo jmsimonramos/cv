@@ -36,6 +36,11 @@ intereses:
       enlace:
     - interes: Big Data
       enlace:
+    - interes: Ciencia de Datos
+      enlace:
+    - interes: Analítica de Datos
+      enlace:
+
 
 sobre-mi:
     titulo-seccion: Sobre mí

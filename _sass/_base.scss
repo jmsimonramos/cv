@@ -221,6 +221,10 @@ p {
     .btn-idioma:hover{
       background-color: $lighter-grey;
     }
+    .btn-idioma:disabled{
+      cursor: not-allowed;
+      background-color: darken($lighter-grey, 15%)
+    }
   }
 
   .experiences-section{
