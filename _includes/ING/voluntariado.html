@@ -1,0 +1,43 @@
+{% assign voluntariado = site.data.dataING.voluntariado %}
+
+{% if voluntariado.elementos %}
+<section class="section voluntariado-section">
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-hand-holding-heart fa-stack-1x fa-inverse"></i>
+    </span>
+    {{voluntariado.titulo-seccion}}
+  </h2>
+
+  {% for voluntario in voluntariado.elementos %}
+  <div class="item">
+
+    <div class="meta">
+
+      <div class="upper-row">
+        {% if voluntario.enlace %}
+          <h3 class="job-title"><a target="_blank" href="{{ voluntario.enlace }}">{{ voluntario.nombre }}</a></h3>
+        {% else %}
+          <h3 class="job-title">{{ voluntario.nombre}}</h3>
+        {% endif %}
+        <div class="time">{{ voluntario.fecha }}</div>
+      </div><!--//upper-row-->
+
+      <div class="company">{{ voluntario.entidad }}</div>
+
+    </div><!--//meta-->
+
+    {% if voluntario.descripcion %}
+    <div class="details">
+      {{ voluntario.descripcion | markdownify }}
+    </div><!--//details-->
+    {% endif %}
+
+  </div><!--//item-->
+  <hr></hr>
+  {% endfor %}
+
+</section><!--//section-->
+{% endif %}
+

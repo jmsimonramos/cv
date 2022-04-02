@@ -19,3 +19,10 @@ jQuery(document).ready(function($) {
     
 
 });
+
+function cambiarIdiomaING(){
+    window.location.replace("cv-ing.html")
+}
+function cambiarIdiomaESP(){
+    window.location.replace("index.html");
+}

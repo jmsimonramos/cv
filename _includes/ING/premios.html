@@ -1,0 +1,41 @@
+{% assign premios = site.data.dataING.premios %}
+
+{% if premios.elementos %}
+<section class="section premios-section">
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-trophy fa-stack-1x fa-inverse"></i>
+    </span>
+    {{premios.titulo-seccion}}
+  </h2>
+
+  {% for premio in premios.elementos %}
+  <div class="item">
+
+    <div class="meta">
+
+      <div class="upper-row">
+        {% if premio.enlace %}
+          <h3 class="job-title"><a target="_blank" href="{{ premio.enlace }}">{{ premio.nombre }}</a></h3>
+        {% else %}
+          <h3 class="job-title">{{ premio.nombre}}</h3>
+        {% endif %}
+      </div><!--//upper-row-->
+
+      <div class="company">{{ premio.fecha }}</div>
+
+    </div><!--//meta-->
+
+    {% if premio.detalles %}
+    <div class="details">
+      {{ premio.detalles | markdownify }}
+    </div><!--//details-->
+    {% endif %}
+
+  </div><!--//item-->
+  <hr></hr>
+  {% endfor %}
+
+</section><!--//section-->
+{% endif %}

@@ -90,10 +90,14 @@ experiencia-profesional:
 proyectos:
     titulo-seccion: Projects
     elementos:
+      - titulo: Repository of historical fuel prices in Spain 
+        enlace: https://github.com/jmsimonramos/precio-combustible-ESP
+        descripcion: Project designed to generate an open repository to publish daily fuel prices in the different service stations in Spain, and the average in each province and Autonomous Community. To do this we have developed a Python script that is used to extract and transform the data from the official page of Open Data of the Government of Spain, and upload the processed data to the repository of the project.
+        periodo: march 2022 - april 2022
+
       - titulo: "TFM: Implementation of a PLN-based tool for the detection and anonymization of personal data in documents."
         enlace: https://uvadoc.uva.es/handle/10324/49995
         descripcion: Final Master Project focused on the implementation of a tool developed in Python in which Deep Learning based models are used for Natural Language Processing tasks. The objective of the project is to extract the text of administrative documents and detect the personal information that could be inside them. Once this information has been detected, a data anonymization process is carried out using proprietary substitution mechanisms based on dictionaries and graphs.
-
         periodo: june 2021 - september 2021
       
       - titulo: "TFG: Selection and Optimization of Algorithms for Airport Configuration Prediction."

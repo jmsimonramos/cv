@@ -1,0 +1,27 @@
+{% assign intereses = site.data.dataESP.intereses %}
+
+{% if intereses.elementos %}
+<div class="interests-container container-block">
+
+  <h2 class="container-block-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x base"></i>
+      <i class="fas fa-brain fa-stack-1x fa-inverse icono"></i>
+    </span>
+    {{intereses.titulo-seccion}}
+  </h2>
+
+  <ul class="list-unstyled interests-list">
+    {% for interes in intereses.elementos %}
+
+      {% if interes.enlace %}
+      <li><a href="{{ interest.link }}">{{ interes.interes }}</a></li>
+      {% else %}
+      <li>{{ interes.interes }}</li>
+      {% endif %}
+
+    {% endfor %}
+  </ul>
+
+</div><!--//interests-->
+{% endif %}
