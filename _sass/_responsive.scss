@@ -30,9 +30,16 @@
   .main-wrapper .upper-row {
     margin-bottom: 0;
   }
-  .main-wrapper .contenedor-botones .btn-idioma{
-    opacity: 0.8;
+  .main-wrapper .contenedor-botones {
+      .btn-idioma{
+      opacity: 0.8;
+    }
   }
+  .sidebar-wrapper .avatar{
+    margin-top: 10px;
+  }
+  
+    
 }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
