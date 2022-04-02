@@ -1,0 +1,43 @@
+{% assign experiencias = site.data.dataESP.experiencia-profesional %}
+
+{% if experiencias.elementos %}
+<section class="section experiences-section">
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-briefcase fa-stack-1x fa-inverse"></i>
+    </span>
+    {{experiencias.titulo-seccion}}
+  </h2>
+
+  {% for experiencia in experiencias.elementos %}
+  <div class="item">
+
+    <div class="meta">
+
+      <div class="upper-row">
+        {% if experiencia.enlace %}
+          <h3 class="job-title"><a target="_blank" href="{{ experiencia.enlace }}">{{ experiencia.puesto }}</a></h3>
+        {% else %}
+          <h3 class="job-title">{{ experiencia.puesto }}</h3>
+        {% endif %}
+        <div class="time">{{ experiencia.periodo }}</div>
+      </div><!--//upper-row-->
+
+      <div class="company">{{ experiencia.empresa }}</div>
+
+    </div><!--//meta-->
+
+    {% if experiencia.detalles %}
+    <div class="details">
+      {{ experiencia.detalles | markdownify }}
+    </div><!--//details-->
+    {% endif %}
+
+  </div><!--//item-->
+  <hr>
+  {% endfor %}
+
+</section><!--//section-->
+{% endif %}
+

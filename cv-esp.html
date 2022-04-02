@@ -1,0 +1,21 @@
+---
+layout: defaultESP
+---
+{% include ESP/botones-idioma.html %}
+{% include ESP/sobre-mi.html %}
+
+{% unless site.sidebar.educacion %}
+  {% include ESP/educacion.html %}
+{% endunless %}
+
+{% include ESP/experiencia.html %}
+
+{% include ESP/proyectos.html %}
+
+{% include ESP/publicaciones.html %}
+
+{% include ESP/premios.html %}
+
+{% include ESP/voluntariado.html %}
+
+{% include ESP/habilidades.html %}

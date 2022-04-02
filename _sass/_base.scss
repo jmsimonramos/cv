@@ -207,6 +207,16 @@ p {
   .section {
     margin-bottom: 50px;
   }
+  .contenedor-botones{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    .btn-idioma{
+      background-color: $smoky-white;
+      border: 1px solid $lighter-grey;
+      font-weight: 500;
+    }
+  }
 
   .experiences-section{
     a{

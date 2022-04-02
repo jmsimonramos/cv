@@ -1,0 +1,32 @@
+{% assign publicaciones = site.data.dataESP.publicaciones %}
+{% if publicaciones.elementos %}
+<section class="section publications-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-file-alt fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ publicaciones.titulo-seccion }}
+  </h2>
+  {% endif %}
+
+  {% for publicacion in publicaciones.elementos %}
+  <div class="item">
+    <div class="meta">
+      <div class="upper-row">
+        {% if publicacion.enlace %}
+        <h3 class="publication-title"><a target="_blank" href="{{ publicacion.enlace }}">{{ publicacion.titulo }}</a></h3>
+        {% else %}
+        <h3 class="publication-title">{{ publicacion.titulo }}</h3>
+        {% endif %}
+      </div>
+
+      <div class="publication-authors">{{ publicacion.autor }}</div>
+      <div class="project-time">{{ publicacion.lugar-publicacion }}</div>
+    </div>
+  </div>
+  {% endfor %}
+
+</section>
+

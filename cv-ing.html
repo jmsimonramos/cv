@@ -1,0 +1,21 @@
+---
+layout: defaultING
+---
+{% include ING/botones-idioma.html %}
+{% include ING/sobre-mi.html %}
+
+{% unless site.sidebar.educacion %}
+  {% include ING/educacion.html %}
+{% endunless %}
+
+{% include ING/experiencia.html %}
+
+{% include ING/proyectos.html %}
+
+{% include ING/publicaciones.html %}
+
+{% include ING/premios.html %}
+
+{% include ING/voluntariado.html %}
+
+{% include ING/habilidades.html %}

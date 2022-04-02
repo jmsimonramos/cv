@@ -1,0 +1,24 @@
+{% assign idiomas = site.data.dataING.idiomas %}
+
+{% if idiomas.elementos %}
+<div class="languages-container container-block">
+
+  <h2 class="container-block-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x base"></i>
+      <i class="fas fa-globe fa-stack-1x fa-inverse icono"></i>
+    </span>
+    {{idiomas.titulo-seccion}}
+  </h2>
+
+  <ul class="list-unstyled interests-list">
+    {%for idioma in idiomas.elementos %}
+    <li>
+      {{ idioma.idioma }}
+      <span class="lang-desc">({{ idioma.nivel }})</span>
+    </li>
+    {% endfor %}
+  </ul>
+
+</div><!--//interests-->
+{% endif %}

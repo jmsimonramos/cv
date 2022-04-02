@@ -21,8 +21,8 @@ jQuery(document).ready(function($) {
 });
 
 function cambiarIdiomaING(){
-    window.location.replace("https://jmsimonramos.github.io/cv-ing/")
+    window.location.replace("cv-ing.html")
 }
 function cambiarIdiomaESP(){
-    window.location.replace("https://jmsimonramos.github.io/cv/");
+    window.location.replace("cv-esp.html");
 }
