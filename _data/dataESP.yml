@@ -90,10 +90,10 @@ experiencia-profesional:
 proyectos:
     titulo-seccion: Proyectos
     elementos:
-      - titulo: Repositorio con el histórico de precios del combustible en España 
+      - titulo: Datos y Dashboard con el histórico de precios del combustible en España.
         enlace: https://github.com/jmsimonramos/precio-combustible-ESP
-        descripcion: Proyecto destinado a generar un repositorio de manera abierta en el que se publique diariamente los precios del combustible en las distintas estaciones de servicio de España, así como la media en cada provincia y Comunidad Autónoma. Para ello se ha desarrollado un script en Python que se encarga de extraer y procesar los datos de la página oficial de Datos Abiertos del Gobierno de España, y subir los datos procesados al repositorio del proyecto.
-        periodo: marzo 2022 - abril 2022
+        descripcion: Proyecto destinado a generar un repositorio de manera abierta en el que se publique diariamente los precios del combustible en las distintas estaciones de servicio de España, así como la media en cada provincia y Comunidad Autónoma. Por otro lado se ha desarrollado un dashboard en el que se pueda visualizar de una forma más clara y concisa la información de los precios categorizada y procesada. Para ello se ha desarrollado un script en Python que se encarga de extraer y procesar los datos de la página oficial de Datos Abiertos del Gobierno de España, generar los gráficos que conforman el Dashboard, y subir los datos procesados al repositorio del proyecto.
+        periodo: marzo 2022 - Actualidad
 
       - titulo: "TFM: Implementación de una herramienta basada en PLN para la detección y anonimización de datos personales en documentos."
         enlace: https://uvadoc.uva.es/handle/10324/49995

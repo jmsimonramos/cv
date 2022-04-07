@@ -90,10 +90,10 @@ experiencia-profesional:
 proyectos:
     titulo-seccion: Projects
     elementos:
-      - titulo: Repository of historical fuel prices in Spain 
+      - titulo: Data and Dashboard of historical fuel prices in Spain. 
         enlace: https://github.com/jmsimonramos/precio-combustible-ESP
-        descripcion: Project designed to generate an open repository to publish daily fuel prices in the different service stations in Spain, and the average in each province and Autonomous Community. To do this we have developed a Python script that is used to extract and transform the data from the official page of Open Data of the Government of Spain, and upload the processed data to the repository of the project.
-        periodo: march 2022 - april 2022
+        descripcion: Project designed to generate an open repository to publish daily fuel prices in the different service stations in Spain, and the average in each province and Autonomous Community. Furthermore, a dashboard has been implemented in order to visualize in a clearer and more concise way the price information in a categorized and processed way. To do this we have developed a Python script that is used to extract and transform the data from the official page of Open Data of the Government of Spain, generate the graphs that conform the Dashboard, and upload the processed data to the repository of the project.
+        periodo: march 2022 - Actuality
 
       - titulo: "TFM: Implementation of a PLN-based tool for the detection and anonymization of personal data in documents."
         enlace: https://uvadoc.uva.es/handle/10324/49995
