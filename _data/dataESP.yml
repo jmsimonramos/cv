@@ -101,7 +101,7 @@ proyectos:
         periodo: junio 2021 - septiembre 2021
       
       - titulo: "TFG: Selección y Optimización de Algoritmos para la predicción de configuraciones en aeropuertos."
-        enlace: https://uvadoc.uva.es/handle/10324/41331
+        enlace: https://github.com/jmsimonramos/tfg-josemanuel
         descripcion: Proyecto destinado a probar y optimizar diferentes modelos de aprendizaje automático, con el objetivo de tratar la problemática de la elección de la configuración de pistas en el Aeropuerto de Madrid Barajas.
         periodo: enero 2020 - julio 2020
      
