@@ -96,7 +96,7 @@ proyectos:
         periodo: marzo 2022 - Actualidad
 
       - titulo: "TFM: Implementación de una herramienta basada en PLN para la detección y anonimización de datos personales en documentos."
-        enlace: https://uvadoc.uva.es/handle/10324/49995
+        enlace: https://github.com/jmsimonramos/tfm-josemanuel
         descripcion: Proyecto Fin de Máster enfocado a la implementación de una herramienta desarrollada en Python en la que se hace uso de modelos basados en Deep Learning para tareas de Procesamiento del Lenguaje Natural. El objetivo del proyecto consiste en extraer el texto de documentos administrativos y detectar la información de carácter personal que pudiera haber en ellos. Una vez se han detectado esa información, se realiza un proceso de anonimización de los datos utilizando mecanismos de sustitución propios basados en diccionarios y en grafos.
         periodo: junio 2021 - septiembre 2021
       
