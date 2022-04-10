@@ -105,6 +105,11 @@ proyectos:
         descripcion: Proyecto destinado a probar y optimizar diferentes modelos de aprendizaje automático, con el objetivo de tratar la problemática de la elección de la configuración de pistas en el Aeropuerto de Madrid Barajas.
         periodo: enero 2020 - julio 2020
      
+      - titulo: 'Exposición: "Ataques Adversarios, como engañar a una Red Neuronal."'
+        enlace: https://github.com/jmsimonramos/ataques-adversarios-techtrain
+        descripcion: Proyecto destinado a exponer de forma práctica como se realizan ataques adversarios sobre una red neuronal para que esta proporcione resultados inesperados y conseguir así que la red falle.
+        periodo: febrero 2020
+
       - titulo: UVAgile
         enlace: https://drive.google.com/file/d/1wNwFFf9JnnlR5G8RrCZj9nBeO7rozSI0/view?usp=sharing
         descripcion: Proyecto de Innovación Docente para mejorar la calidad de la docencia utilizando metodologías ágiles.

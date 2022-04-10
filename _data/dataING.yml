@@ -104,7 +104,12 @@ proyectos:
         enlace: https://github.com/jmsimonramos/tfg-josemanuel
         descripcion: Project aimed at testing and optimizing different machine learning models, with the objective of dealing with the problem of choosing the runway configuration at Madrid Barajas Airport.
         periodo: january 2020 - july 2020
-     
+      
+      - titulo: 'Conference: "Adversarial Attacks, how to trick a Neural Network."'
+        enlace: https://github.com/jmsimonramos/ataques-adversarios-techtrain
+        descripcion: Project designed to present in a practical way how adversarial attacks are implemented on a neural network to provide unexpected results and make the network fail.
+        periodo: february 2020
+      
       - titulo: UVAgile
         enlace: https://drive.google.com/file/d/1wNwFFf9JnnlR5G8RrCZj9nBeO7rozSI0/view?usp=sharing
         descripcion: Teaching Innovation Project to improve the quality of education using agile methodologies.
