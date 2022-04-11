@@ -207,10 +207,30 @@ p {
   .section {
     margin-bottom: 50px;
   }
-  .contenedor-botones{
+  .contenedor-botones-derecha{
     position: absolute;
     top: 0px;
     right: 0px;
+    .btn-idioma{
+      height: 30px;
+      background-color: $smoky-white;
+      border: 1px solid $lighter-grey;
+      font-weight: 500;
+      border-radius: 5px;
+    }
+    .btn-idioma:hover{
+      background-color: $lighter-grey;
+    }
+    .btn-idioma:disabled{
+      cursor: not-allowed;
+      background-color: darken($lighter-grey, 15%)
+    }
+  }
+
+  .contenedor-botones-izquierda{
+    position: absolute;
+    top: 0px;
+    left: 0px;
     .btn-idioma{
       height: 30px;
       background-color: $smoky-white;

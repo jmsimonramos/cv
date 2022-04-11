@@ -1,7 +1,21 @@
 ---
 layout: defaultING
 ---
-{% include ING/botones-idioma.html %}
+{% if site.sidebar.localizacion-sidebar == 'left' %}
+  {% include ING/botones-idioma.html %}
+{% else %}
+<script>
+  // Una vez cargue la página cambiamos el tipo de display a flex ya que si lo hacemos antes de que se renderizen los gráficos no funcionaría
+  window.onload = function() {
+      var contenedorBotones = document.getElementsByClassName("contenedor-botones-derecha");
+      for (let i = 0; i < contenedorBotones.length; i++) {
+        contenedorBotones[i].className = "contenedor-botones-izquierda";
+      }
+  };
+</script>
+  {% include ING/botones-idioma.html %}
+{% endif %}
+
 {% include ING/sobre-mi.html %}
 
 {% unless site.sidebar.educacion %}
