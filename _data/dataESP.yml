@@ -1,6 +1,6 @@
 perfil:
   nombre: José Manuel Simón Ramos
-  descripcion: Ingeniero Informático | Máster en Big Data & Business Intelligence
+  descripcion: Data Engineer | Máster en Big Data & Business Intelligence
   avatar: avatar.JPG  
 
 contacto:
@@ -64,6 +64,19 @@ educacion:
 experiencia-profesional:
     titulo-seccion: Experiencia Profesional
     elementos:
+      - puesto: Data Engineer
+        periodo: mayo 2022 - Actualidad
+        empresa: ALTEN Spain
+        enlace: 
+        detalles: |
+          Ingeniero de datos en el equipo de Data de Bershka España a través de la consultora ALTEN.
+
+          Tareas Realizadas:
+            - Creación y mantenimiento de procesos ETL en Azure.
+            - Desarrollo y gestión de notebooks en Azure Databricks.
+            - Gestión de Data Warehouse en SQL.
+            - Monitorización de procesos en Azure DataFactory.
+
       - puesto: Becario de Investigación
         periodo: octubre 2020 - julio 2021
         empresa: Universidad de Valladolid
@@ -133,11 +146,11 @@ hard-skills:
     elementos:
       - nombre: Python
         nivel: 90%
-      - nombre: Pandas
+      - nombre: PySpark
         nivel: 85%
-      - nombre: Spark
-        nivel: 75%
-      - nombre: MySQL
+      - nombre: Azure
+        nivel: 80%        
+      - nombre: SQL
         nivel: 80%
       - nombre: Scrum
         nivel: 80% 

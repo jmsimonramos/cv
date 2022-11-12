@@ -1,6 +1,6 @@
 perfil:
   nombre: José Manuel Simón Ramos
-  descripcion: Computer Science Engineer | Master in Big Data & Business Intelligence
+  descripcion: Data Engineer | Master in Big Data & Business Intelligence
   avatar: avatar.JPG  
 
 contacto:
@@ -64,6 +64,19 @@ educacion:
 experiencia-profesional:
     titulo-seccion: Professional Experience
     elementos:
+      - puesto: Data Engineer
+        periodo: may 2022 - Actuality
+        empresa: ALTEN Spain
+        enlace: 
+        detalles: |
+          Data Engineer in the Data Team of Bershka Spain via ALTEN consulting company.
+
+          Tasks Performed:
+            - Creation and support of ETL processes in Azure.
+            - Development and administration of notebooks in Azure Databricks.
+            - Data Warehouse management in SQL.
+            - Process monitoring in Azure DataFactory.
+
       - puesto: Research Intern
         periodo: october 2020 - july 2021
         empresa: University of Valladolid
@@ -133,11 +146,11 @@ hard-skills:
     elementos:
       - nombre: Python
         nivel: 90%
-      - nombre: Pandas
+      - nombre: PySpark
         nivel: 85%
-      - nombre: Spark
-        nivel: 75%
-      - nombre: MySQL
+      - nombre: Azure
+        nivel: 80%        
+      - nombre: SQL
         nivel: 80%
       - nombre: Scrum
         nivel: 80% 
