@@ -1,6 +1,4 @@
-{% assign hard-skills = site.data.dataING.hard-skills %}
-{% assign soft-skills = site.data.dataING.soft-skills %}
-
+{% assign hard-skills = site.data.dataESP.hard-skills %}
 
 {% if hard-skills.elementos %}
 <section class="skills-section section">
@@ -30,25 +28,4 @@
   </div>
 
 </section><!--//skills-section-->
-{% endif %}
-
-{% if soft-skills.elementos %}
-<section class="skills-section section">
-  <h2 class="section-title">
-    <span class="fa-stack fa-xs">
-      <i class="fas fa-circle fa-stack-2x"></i>
-      <i class="fas fa-users fa-stack-1x fa-inverse"></i>    
-    </span>
-    {{ soft-skills.titulo-seccion }}
-  </h2>
-
-  <div class="soft-skillset">
-
-    {% for soft-skill in soft-skills.elementos %}
-    <button disabled class="soft-skill-button" type="button">{{soft-skill.nombre}}</button>
-    {% endfor %}
-
-  </div>
-
-</section><!--//cv-skills-section-->
 {% endif %}

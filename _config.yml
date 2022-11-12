@@ -17,7 +17,9 @@ ordenSecciones:
   - publicaciones
   - premios
   - voluntariado
-  - habilidades
+  - habilidades-personales
+  - habilidades-profesionales
+  
 # Sass/SCSS
 sass:
   sass_dir: _sass
