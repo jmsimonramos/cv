@@ -47,7 +47,7 @@
     .sidebar-wrapper {
         position: static;
         float: left;
-        width: 37%;
+        width: 100%;
         margin: 0px 30px 20px 0px;
         background: $theme-color !important;
         color: #fff !important;
@@ -98,6 +98,7 @@
          flex-direction: row;
          position: relative;
          width: auto;
+         margin-top: 3px;
          .level-title{
             left: 0;
          }
@@ -152,7 +153,7 @@
        color: #fff !important;
        -webkit-print-color-adjust: exact; 
     }
-    .contenedor-botones{
+    .botones{
        display: none;
     }
 }
