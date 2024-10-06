@@ -1,13 +1,13 @@
 perfil:
   nombre: José Manuel Simón Ramos
-  descripcion: Data Engineer | Máster en Big Data & Business Intelligence
-  avatar: avatar.JPG  
+  descripcion: Senior Data Engineer | Máster en Big Data & Business Intelligence
+  avatar: avatar.jpeg  
 
 contacto:
   titulo-seccion: Contacto
   elementos:
-    email: jmsimonramos@gmail.com
-    telefono: +34 690 149 454
+    email: josemanuelsimonramos@icloud.com
+    telefono: +34 628 756 774
     linkedin: jose-manuel-simon-ramos
     github: jmsimonramos
     telegram: # add your nickname without '@' sign
@@ -19,7 +19,7 @@ contacto:
     goodreads: # Number-Username, e.g. 123456-alandoe
     pdf: 
       titulo: Descargar CV
-      enlace: https://drive.google.com/file/d/1I2pyoUC9p9Oq9an8slwoyW2Wrwrdlnzc/view?usp=sharing
+      enlace: https://drive.google.com/file/d/12290T4JAnWJfcSYYzxMv4BiqbUAciPfP/view?usp=share_link
 
 idiomas:
   titulo-seccion: Idiomas
@@ -32,22 +32,26 @@ idiomas:
 intereses:
   titulo-seccion: Intereses
   elementos:
-    - interes: Machine Learning
-      enlace:
     - interes: Big Data
-      enlace:
-    - interes: Ciencia de Datos
-      enlace:
-    - interes: Analítica de Datos
-      enlace:
+    - interes: Ingeniería de datos
+    - interes: Spark
+    - interes: Databricks
+    - interes: Cloud
+    - interes: Delta Lake
+    - interes: Open Source
 
 
 sobre-mi:
     titulo-seccion: Sobre mí
     descripcion: |
-      Me llamo José Manuel Simón Ramos, soy graduado en Ingeniería Informática de Servicios y Aplicaciones y graduado en el Máster en Inteligencia de Negocio y Big Data en Entornos Seguros por la Universidad de Valladolid. 
-      
-      Soy un aficionado de la informática y de las nuevas tecnologías, además de todo lo relacionado con el Big Data y el Machine Learning.
+      Ingeniero de datos con más de 3 años de experiencia trabajando tanto con Data Warehouses como con Data Lakehouses. Mi especialidad radica en el modelado de datos así como en el desarrollo y orquestación de procesos ETL. Todo ello bajo una filosofía de trabajo basada en el uso de los tecnologías Spark y SQL, destacando en los entornos de Azure, Databricks y Snowflake. 
+
+      Durante mi etapa profesional he demostrado habilidades para manejar grandes volúmenes de datos y transformarlos en información significativa que impulsa las decisiones estratégicas 📈. 
+
+      Siempre estoy en la búsqueda de nuevas oportunidades que me permitan crecer y aprender 🎓
+
+      Mi objetivo consiste en mejorar la forma en que se obtienen, modelan, almacenan y se accede a los datos. Con este enfoque busco llevar a cabo una gestión y explotación de los datos de una forma más eficiente y efectiva, aumentando el valor del dato, y facilitando así la toma de decisiones 🧠🚀.
+
 educacion:
     titulo-seccion: Educación  
     elementos:
@@ -65,7 +69,23 @@ experiencia-profesional:
     titulo-seccion: Experiencia Profesional
     elementos:
       - puesto: Data Engineer
-        periodo: mayo 2022 - Actualidad
+        periodo: junio 2023 - Actualidad
+        empresa: Decide Soluciones
+        detalles: |
+          Tareas Realizadas:
+          - Creación y mantenimiento de procesos ETL en Azure y Databricks.
+          - Desarrollo de ETL y manejo de grandes volúmenes de datos con Spark y/o SQL.
+          - Almacenamiento y persistencia de datos en formatos y arquitecturas escalables y eficientes. 
+          - Modelado de la información.
+          - Filosofía de trabajo basada en el uso de Data Lakehouses
+
+      - puesto: Profesor Asociado
+        periodo: marzo 2023 - septiembre 2023
+        empresa: Universidad de Valladolid
+        detalles: Profesor Asociado en el Grado de Ingeniería Informática de Servicios y Aplicaciones de la Universidad de Valladolid, Campus Universitario María Zambrano (Segovia)
+      
+      - puesto: Data Engineer
+        periodo: mayo 2022 - junio 2023
         empresa: ALTEN Spain
         enlace: 
         detalles: |
@@ -80,7 +100,6 @@ experiencia-profesional:
       - puesto: Becario de Investigación
         periodo: octubre 2020 - julio 2021
         empresa: Universidad de Valladolid
-        enlace: https://drive.google.com/file/d/1ncvqN8PbQpz6U6V5U_wzsoqxwRmVdYqc/view?usp=sharing
         detalles: |
           Becario de Investigación en el Proyecto AIRPORTS: Construcción de un prototipo de plataforma Big Data para el análisis de la eficiencia operacional de vuelos basadas en trayectorias. 
 
@@ -92,7 +111,6 @@ experiencia-profesional:
       - puesto: Becario de Investigación
         periodo: abril 2020 - junio 2020
         empresa: Universidad de Valladolid
-        enlace: https://drive.google.com/file/d/1nQ4Nze8lInJ-j-9blb6WW3l145PIL9KW/view?usp=sharing
         detalles: |
           Becario de investigación en el contrato de investigación (Art.83) "SISTEMA DE DEEP LEARNING PARA LA OFUSCACIÓN DE DATOS PERSONALES  SUJETOS A RGPD". 
 
@@ -103,59 +121,36 @@ experiencia-profesional:
 proyectos:
     titulo-seccion: Proyectos
     elementos:
-      - titulo: Datos y Dashboard con el histórico de precios del combustible en España.
-        enlace: https://github.com/jmsimonramos/precio-combustible-ESP
-        descripcion: Proyecto destinado a generar un repositorio de manera abierta en el que se publique diariamente los precios del combustible en las distintas estaciones de servicio de España, así como la media en cada provincia y Comunidad Autónoma. Por otro lado se ha desarrollado un dashboard en el que se pueda visualizar de una forma más clara y concisa la información de los precios categorizada y procesada. Para ello se ha desarrollado un script en Python que se encarga de extraer y procesar los datos de la página oficial de Datos Abiertos del Gobierno de España, generar los gráficos que conforman el Dashboard, y subir los datos procesados al repositorio del proyecto.
-        periodo: marzo 2022 - Actualidad
-
       - titulo: "TFM: Implementación de una herramienta basada en PLN para la detección y anonimización de datos personales en documentos."
-        enlace: https://github.com/jmsimonramos/tfm-josemanuel
+        #enlace: https://github.com/jmsimonramos/tfm-josemanuel
         descripcion: Proyecto Fin de Máster enfocado a la implementación de una herramienta desarrollada en Python en la que se hace uso de modelos basados en Deep Learning para tareas de Procesamiento del Lenguaje Natural. El objetivo del proyecto consiste en extraer el texto de documentos administrativos y detectar la información de carácter personal que pudiera haber en ellos. Una vez se han detectado esa información, se realiza un proceso de anonimización de los datos utilizando mecanismos de sustitución propios basados en diccionarios y en grafos.
         periodo: junio 2021 - septiembre 2021
       
       - titulo: "TFG: Selección y Optimización de Algoritmos para la predicción de configuraciones en aeropuertos."
-        enlace: https://github.com/jmsimonramos/tfg-josemanuel
+        #enlace: https://github.com/jmsimonramos/tfg-josemanuel
         descripcion: Proyecto destinado a probar y optimizar diferentes modelos de aprendizaje automático, con el objetivo de tratar la problemática de la elección de la configuración de pistas en el Aeropuerto de Madrid Barajas.
         periodo: enero 2020 - julio 2020
      
       - titulo: 'Exposición: "Ataques Adversarios, como engañar a una Red Neuronal."'
-        enlace: https://github.com/jmsimonramos/ataques-adversarios-techtrain
+        #enlace: https://github.com/jmsimonramos/ataques-adversarios-techtrain
         descripcion: Proyecto destinado a exponer de forma práctica como se realizan ataques adversarios sobre una red neuronal para que esta proporcione resultados inesperados y conseguir así que la red falle.
         periodo: febrero 2020
-
-      - titulo: UVAgile
-        enlace: https://drive.google.com/file/d/1wNwFFf9JnnlR5G8RrCZj9nBeO7rozSI0/view?usp=sharing
-        descripcion: Proyecto de Innovación Docente para mejorar la calidad de la docencia utilizando metodologías ágiles.
-        periodo: enero 2019 - febrero 2022
-
-publicaciones:
-    titulo-seccion: Publicaciones 
-    elementos:
-      - titulo: "Vida más allá de MySQL: InfluxDB y las Bases de Datos de Series Temporales."
-        enlace: https://www.dropbox.com/s/sy8ly6qq00lkpud/Segobit-V06-N08-P032.pdf?dl=0
-        autor: José Manuel Simón Ramos, Petar Georgiev Aleksandrov
-        lugar-publicacion: SEGO-BIT (Número 8); ISSN:2386-866X · 8 jul. 2019
-
-      - titulo: "Marcas de agua y huellas digitales: qué son y por qué son importantes en la actualidad."
-        enlace: https://www.dropbox.com/s/bda4tgyyblulqvt/SEGOBIT-V05-N06-P020.pdf?dl=0
-        autor: José Manuel Simón Ramos, Álvaro Fuentes Valverde
-        lugar-publicacion: SEGO-BIT (Número 6); ISSN:2386-866X · 6 feb. 2018
         
 hard-skills:
     titulo-seccion: Habilidades Profesionales
     elementos:
-      - nombre: Python
+      - nombre: Datbricks
         nivel: 90%
-      - nombre: PySpark
+      - nombre: Spark
         nivel: 85%
       - nombre: Azure
-        nivel: 80%        
+        nivel: 85%        
       - nombre: SQL
         nivel: 80%
       - nombre: Scrum
         nivel: 80% 
       - nombre: Git
-        nivel: 85% 
+        nivel: 80% 
 
 soft-skills:
     titulo-seccion: Habilidades Personales
@@ -166,58 +161,75 @@ soft-skills:
       - nombre: Constancia
       - nombre: Dedicación
       - nombre: Mentalidad de Crecimiento
+  
 premios:
   titulo-seccion: Colaboraciones y Premios
   elementos:
     - nombre: Premio Extraordinario Fin de Máster 
       fecha: noviembre 2021
-      enlace: https://drive.google.com/file/d/1JAvHwIhiVqeWO6i3gQ87qOIzgZtbwA-r/view?usp=sharing
       detalles: Premio Extraordinario en el Máster Universitario en Inteligencia de Negocio y Big Data en Entornos Seguros en el Curso 2020/21.
 
     - nombre: Integrante del Ranking Nacional 2020 como uno de los mejores graduados en Ingeniería Informática de España 
       fecha: octubre 2020
-      enlace: https://drive.google.com/file/d/1yrMujmsLIE-Bayw-Cochkz9nViMiVISO/view?usp=sharing
       detalles: Integrante del Ranking Nacional 2020 en Ingeniería Informática realizado por la *"Sociedad Española de Excelencia Académica (SEDEA)"* en el  se recogen a los mejores graduados de España en cada una de las titulaciones.
     
     - nombre: Premios UVa-Santander de Excelencia en Grado
       fecha: septiembre 2020
-      enlace: https://drive.google.com/file/d/1R6fOvSrIW7QdrrIvWU8qIS5GEQX0W5wk/view?usp=sharing
       detalles: Premios otorgados por el Banco Santander en los que se reconoce la excelencia de los egresados en la Universidad de Valladolid.
     
     - nombre: Primer Premio “Hackerfest 2020” 
       fecha: marzo 2020
-      enlace: https://drive.google.com/file/d/1NsJ2E_WYUHEsHem0ROaoNzu4Hxp0598j/view?usp=sharing
       detalles: Hackathon celebrado en la Universidad de Valladolid en el que se planteó la creación de un producto software centrado en la resolución de distintos retos de caracter medioambiental.
 
     - nombre: Ponente en el VIII Encuentro de Valores Democráticos y Fuerzas Armadas 
       fecha: noviembre 2019
-      enlace: https://drive.google.com/file/d/1ul6gcgqMQIw09XDwAK6yd8pb7YJLgj8H/view?usp=sharing
       detalles: Evento organizado por la Universidad de Valladolid con la temática “La dimensión ética de la Inteligencia Artificial”. 
     
     - nombre: Colaborador “SPIRE” 2019 
       fecha: octubre 2019
-      enlace: https://drive.google.com/file/d/1HxLpZIFkSHzRbQA5bSZZhyKiAdN3Rv1e/view?usp=sharing
       detalles: Colaborador y asistente de la 26º edición del Congreso Internacional “SPIRE” organizado por la Universidad de Valladolid y la Universidad de A Coruña. 
     
     - nombre: Ponente “Segovia Tech Train” 
       fecha: marzo 2019 - Actualidad
-      enlace: https://drive.google.com/file/d/1z7meW2PaBa1RSUzC903_IVMBhEtAf6uY/view?usp=sharing
       detalles: Comunidad creada por profesionales del mundo de la informática cuyo  objetivo es establecer un foro en el que se traten experiencias e inquietudes teconológicas, fomentando el aprendizeja colectivo y la retroalimentación. 
 cursos:
   titulo-seccion: Cursos
   elementos:
-    - nombre: Certificate Expert Agile Coach
-      enlace: https://drive.google.com/file/d/1WevUI62uCXhuPQaXfPQ7FgvEPIhc3eN1/view?usp=sharing
-      fecha: mayo 2021
-    - nombre: Certificate Expert Scrum Master
-      enlace: https://www.europeanscrum.org/european-scrum-jose-manuel-simon-ramos.html?lang=en
-      fecha: marzo 2020
-    - nombre: Curso de Machine Learning con TensorFlow
-      enlace: https://openwebinars.net/cert/ywGdG 
-      fecha: febrero 2020
-    - nombre: "Curso Completo de Machine Learning: Data Science en Python"
-      enlace: https://www.udemy.com/certificate/UC-72D26A7P/ 
-      fecha: septiembre 2019
+
+  - nombre: Databricks Certified Data Engineer Professional 
+    enlace: https://credentials.databricks.com/7aecf912-bc7f-45cd-a745-a6064c7694a8
+    fecha: julio 2024
+
+  - nombre: Databricks Certified Data Engineer Associate 
+    enlace: https://credentials.databricks.com/f44e880a-d6b9-45c3-b188-c763c6437dbd
+    fecha: febrero 2024
+
+  - nombre: Academy Accreditation - Databricks Lakehouse Fundamentals 
+    enlace: https://credentials.databricks.com/de8c5e22-9835-41c7-88ac-caa484aa1e6c
+    fecha: diciembre 2023
+  
+  - nombre: Academy Accreditation - Platform Administrator 
+    enlace: https://credentials.databricks.com/2fea282d-3a1f-4571-9e56-702a243191ee
+    fecha: diciembre 2023
+    
+  - nombre: Databricks Certified Associate Developer for Apache Spark 3.0 
+    enlace: https://credentials.databricks.com/6a9d71c8-bb4f-4fa7-b3b8-a674c3499295
+    fecha: junio 2023
+
+  - nombre: Certificate Expert Agile Coach
+    fecha: mayo 2021
+
+  - nombre: Certificate Expert Scrum Master
+    enlace: https://www.europeanscrum.org/european-scrum-jose-manuel-simon-ramos.html?lang=en
+    fecha: marzo 2020
+
+  - nombre: Curso de Machine Learning con TensorFlow
+    enlace: https://openwebinars.net/cert/ywGdG 
+    fecha: febrero 2020
+
+  - nombre: "Curso Completo de Machine Learning: Data Science en Python"
+    enlace: https://www.udemy.com/certificate/UC-72D26A7P/ 
+    fecha: septiembre 2019
 
 voluntariado:
   titulo-seccion: Voluntariado
@@ -236,6 +248,5 @@ voluntariado:
 
     - nombre: Monitor "Scratch Day"
       entidad: Universidad de Valladolid
-      enlace: https://drive.google.com/file/d/1ENhQZYapE8VmnzzNYn3ip6MVuD0ni5s8/view?usp=sharing
       fecha: mayo 2018
       descripcion: Jornada de talleres, juegos y actividades destinado a niños entre 6 y 15 años para que se introduzcan en el mundo de la programación a través del lenguaje "Scratch".

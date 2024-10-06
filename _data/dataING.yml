@@ -1,13 +1,13 @@
 perfil:
   nombre: José Manuel Simón Ramos
-  descripcion: Data Engineer | Master in Big Data & Business Intelligence
-  avatar: avatar.JPG  
+  descripcion: Senior Data Engineer | Master in Big Data & Business Intelligence
+  avatar: avatar.jpeg  
 
 contacto:
-  titulo-seccion: Contact
+  titulo-seccion: Contacto
   elementos:
-    email: jmsimonramos@gmail.com
-    telefono: +34 690 149 454
+    email: josemanuelsimonramos@icloud.com
+    telefono: +34 628 756 774
     linkedin: jose-manuel-simon-ramos
     github: jmsimonramos
     telegram: # add your nickname without '@' sign
@@ -19,7 +19,7 @@ contacto:
     goodreads: # Number-Username, e.g. 123456-alandoe
     pdf: 
       titulo: Download CV
-      enlace: https://drive.google.com/file/d/1eW0WN7dmSxyyDGxDJKdSdNBkEO_dNa6p/view?usp=sharing 
+      enlace: https://drive.google.com/file/d/12290T4JAnWJfcSYYzxMv4BiqbUAciPfP/view?usp=share_link
 
 idiomas:
   titulo-seccion: Languages
@@ -32,21 +32,24 @@ idiomas:
 intereses:
   titulo-seccion: Interests
   elementos:
-    - interes: Machine Learning
-      enlace:
     - interes: Big Data
-      enlace:
-    - interes: Data Science
-      enlace:
-    - interes: Data Analytics
-      enlace:
+    - interes: Data Engineering
+    - interes: Spark
+    - interes: Databricks
+    - interes: Cloud
+    - interes: Delta Lake
+    - interes: Open Source
 
 sobre-mi:
     titulo-seccion: About me
     descripcion: |
-      My name is José Manuel Simón Ramos, I am a graduate in Computer Science Engineering and graduated in the Master in Business Intelligence & Big Data in Secure Environments by the University of Valladolid. 
-      
-      I love everything related to computer engineering and new technologies, in special Big Data and Machine Learning.
+      Data engineer with over 3 years of experience working with both Data Warehouses and Data Lakehouses. My expertise lies in data modeling as well as the development and orchestration of ETL processes, all within a work philosophy centered on the use of Spark and SQL technologies, excelling in Azure, Databricks, and Snowflake environments.
+
+      Throughout my professional career, I have demonstrated skills in handling large volumes of data and transforming them into meaningful information that drives strategic decisions 📈.
+
+      I am always seeking new opportunities to grow and learn 🎓.
+
+      My goal is to improve how data is sourced, modeled, stored, and accessed. With this approach, I aim to manage and exploit data more efficiently and effectively, increasing its value and facilitating decision-making 🧠🚀.
 
 educacion:
     titulo-seccion: Education  
@@ -56,7 +59,7 @@ educacion:
         universidad: University of Valladolid
         periodo: 2020 - 2021
 
-      - titulo: Degree in Computer Science Engineering of Services and Applications
+      - titulo: Degree in Computer Engineering for Services and Applications
         enlace:
         universidad: University of Valladolid
         periodo: 2016 - 2020
@@ -65,177 +68,146 @@ experiencia-profesional:
     titulo-seccion: Professional Experience
     elementos:
       - puesto: Data Engineer
-        periodo: may 2022 - Actuality
+        periodo: June 2023 - Present
+        empresa: Decide Soluciones
+        detalles: |
+          Tasks performed:
+          - Creation and maintenance of ETL processes in Azure and Databricks.
+          - ETL development and handling of large data volumes with Spark and/or SQL.
+          - Data storage and persistence in scalable and efficient formats and architectures.
+          - Information modeling.
+          - Work philosophy based on the use of Data Lakehouses.
+
+      - puesto: Associate Professor
+        periodo: March 2023 - September 2023
+        empresa: University of Valladolid
+        detalles: Associate Professor in the Degree in Computer Engineering for Services and Applications at the University of Valladolid, María Zambrano Campus (Segovia)
+      
+      - puesto: Data Engineer
+        periodo: May 2022 - June 2023
         empresa: ALTEN Spain
         enlace: 
         detalles: |
-          Data Engineer in the Data Team of Bershka Spain via ALTEN consulting company.
+          Data Engineer in the Data team of Bershka Spain through the consulting firm ALTEN.
 
-          Tasks Performed:
-            - Creation and support of ETL processes in Azure.
-            - Development and administration of notebooks in Azure Databricks.
+          Tasks performed:
+            - Creation and maintenance of ETL processes in Azure.
+            - Development and management of notebooks in Azure Databricks.
             - Data Warehouse management in SQL.
             - Process monitoring in Azure DataFactory.
 
       - puesto: Research Intern
-        periodo: october 2020 - july 2021
+        periodo: October 2020 - July 2021
         empresa: University of Valladolid
-        enlace: https://drive.google.com/file/d/1ncvqN8PbQpz6U6V5U_wzsoqxwRmVdYqc/view?usp=sharing
         detalles: |
-          Research intern in the AIRPORTS Project: Construction of a prototype of a Big Data platform for the analysis of flight operational efficiency based on trajectories. 
+          Research Intern in the AIRPORTS Project: Building a Big Data platform prototype for analyzing flight operational efficiency based on trajectories.
 
-          Tasks Performed:
-            - Study of the bases of air traffic management nowadays.
-            - Analysis of similar proposals to the presented in the AIRPORTS project.
-            - Writing of different sections of the paper with the results of the research project.
+          Tasks performed:
+            - Study of the current air traffic management foundations.
+            - Analysis of similar proposals to those presented in the AIRPORTS project.
+            - Writing various sections of the scientific paper based on the project's research results.
 
       - puesto: Research Intern
-        periodo: april 2020 - june 2020
+        periodo: April 2020 - June 2020
         empresa: University of Valladolid
-        enlace: https://drive.google.com/file/d/1nQ4Nze8lInJ-j-9blb6WW3l145PIL9KW/view?usp=sharing
         detalles: |
-          Research intern in the research contract (Art.83) "DEEP LEARNING SYSTEM FOR THE OFUSCATION OF PERSONAL DATA UNDER THE GDPR". 
+          Research Intern in the research contract (Art.83) "DEEP LEARNING SYSTEM FOR OBFUSCATION OF PERSONAL DATA SUBJECT TO GDPR".
 
-          Tasks Performed:
-            - Development of an encryption algorithm for hiding anonymized information. 
-            - Development of regular expressions for the detection of personal data with defined patterns. 
-            - Implementation of the obfuscation tool with Python, Spacy and Deep Learning models. 
+          Tasks performed:
+            - Development of an encryption algorithm for anonymized information obfuscation.
+            - Development of regular expressions for detecting personal data with defined patterns.
+            - Implementation of the obfuscation tool using Python, Spacy, and Deep Learning models.
+
 proyectos:
     titulo-seccion: Projects
     elementos:
-      - titulo: Data and Dashboard of historical fuel prices in Spain. 
-        enlace: https://github.com/jmsimonramos/precio-combustible-ESP
-        descripcion: Project designed to generate an open repository to publish daily fuel prices in the different service stations in Spain, and the average in each province and Autonomous Community. Furthermore, a dashboard has been implemented in order to visualize in a clearer and more concise way the price information in a categorized and processed way. To do this we have developed a Python script that is used to extract and transform the data from the official page of Open Data of the Government of Spain, generate the graphs that conform the Dashboard, and upload the processed data to the repository of the project.
-        periodo: march 2022 - Actuality
-
-      - titulo: "TFM: Implementation of a PLN-based tool for the detection and anonymization of personal data in documents."
-        enlace: https://github.com/jmsimonramos/tfm-josemanuel
-        descripcion: Final Master Project focused on the implementation of a tool developed in Python in which Deep Learning based models are used for Natural Language Processing tasks. The objective of the project is to extract the text of administrative documents and detect the personal information that could be inside them. Once this information has been detected, a data anonymization process is carried out using proprietary substitution mechanisms based on dictionaries and graphs.
-        periodo: june 2021 - september 2021
+      - titulo: "Master's Thesis: Implementation of a tool based on NLP for detecting and anonymizing personal data in documents."
+        #enlace: https://github.com/jmsimonramos/tfm-josemanuel
+        descripcion: Master's final project focused on implementing a tool developed in Python using Deep Learning models for Natural Language Processing tasks. The project's objective is to extract text from administrative documents and detect personal information that may be contained within them. Once detected, a data anonymization process is performed using custom substitution mechanisms based on dictionaries and graphs.
+        periodo: June 2021 - September 2021
       
-      - titulo: "TFG: Selection and Optimization of Algorithms for Airport Configuration Prediction."
-        enlace: https://github.com/jmsimonramos/tfg-josemanuel
-        descripcion: Project aimed at testing and optimizing different machine learning models, with the objective of dealing with the problem of choosing the runway configuration at Madrid Barajas Airport.
-        periodo: january 2020 - july 2020
-      
-      - titulo: 'Conference: "Adversarial Attacks, how to trick a Neural Network."'
-        enlace: https://github.com/jmsimonramos/ataques-adversarios-techtrain
-        descripcion: Project designed to present in a practical way how adversarial attacks are implemented on a neural network to provide unexpected results and make the network fail.
-        periodo: february 2020
-      
-      - titulo: UVAgile
-        enlace: https://drive.google.com/file/d/1wNwFFf9JnnlR5G8RrCZj9nBeO7rozSI0/view?usp=sharing
-        descripcion: Teaching Innovation Project to improve the quality of education using agile methodologies.
-        periodo: january 2019 - february 2022
-
-publicaciones:
-    titulo-seccion: Publications 
-    elementos:
-      - titulo: "Life beyond MySQL: InfluxDB and Time Series Databases."
-        enlace: https://www.dropbox.com/s/sy8ly6qq00lkpud/Segobit-V06-N08-P032.pdf?dl=0
-        autor: José Manuel Simón Ramos, Petar Georgiev Aleksandrov
-        lugar-publicacion: SEGO-BIT (Número 8); ISSN:2386-866X · 8 jul. 2019
-
-      - titulo: "Watermarking and fingerprinting: what they are and why they are important nowadays."
-        enlace: https://www.dropbox.com/s/bda4tgyyblulqvt/SEGOBIT-V05-N06-P020.pdf?dl=0
-        autor: José Manuel Simón Ramos, Álvaro Fuentes Valverde
-        lugar-publicacion: SEGO-BIT (Número 6); ISSN:2386-866X · 6 feb. 2018
+      - titulo: "Bachelor's Thesis: Selection and Optimization of Algorithms for Configuration Prediction at Airports."
+        #enlace: https://github.com/jmsimonramos/tfg-josemanuel
+        descripcion: Project aimed at testing and optimizing various machine learning models to address the problem of choosing runway configurations at Madrid Barajas Airport.
+        periodo: January 2020 - July 2020
+     
+      - titulo: 'Presentation: "Adversarial Attacks, How to Trick a Neural Network."'
+        #enlace: https://github.com/jmsimonramos/ataques-adversarios-techtrain
+        descripcion: Project aimed at practically demonstrating how adversarial attacks are performed on a neural network to produce unexpected results, causing the network to fail.
+        periodo: February 2020
         
 hard-skills:
-    titulo-seccion: Hard Skills
+    titulo-seccion: Professional Skills
     elementos:
-      - nombre: Python
+      - nombre: Datbricks
         nivel: 90%
-      - nombre: PySpark
+      - nombre: Spark
         nivel: 85%
       - nombre: Azure
-        nivel: 80%        
+        nivel: 85%        
       - nombre: SQL
         nivel: 80%
       - nombre: Scrum
         nivel: 80% 
       - nombre: Git
-        nivel: 85% 
+        nivel: 80% 
 
 soft-skills:
-    titulo-seccion: Soft Skills
+    titulo-seccion: Personal Skills
     elementos:
-      - nombre: Enthusiasm to learn
+      - nombre: Willingness to Learn
       - nombre: Teamwork
-      - nombre: Involvement
-      - nombre: Perseverance
+      - nombre: Commitment
+      - nombre: Persistence
       - nombre: Dedication
-      - nombre: Growing Mentality
+      - nombre: Growth Mindset
+  
 premios:
   titulo-seccion: Collaborations and Awards
   elementos:
-    - nombre: Extraordinary Master's degree award
-      fecha: november 2021
-      enlace: https://drive.google.com/file/d/1JAvHwIhiVqeWO6i3gQ87qOIzgZtbwA-r/view?usp=sharing
-      detalles: Extraordinary Award in the Master's Degree in Business Intelligence and Big Data in Secure Environments in the 2020/21 academic year.
+    - nombre: Extraordinary Master's Final Project Award 
+      fecha: November 2021
+      detalles: Extraordinary Award for the Master’s Degree in Business Intelligence and Big Data in Secure Environments for the 2020/21 Academic Year.
 
-    - nombre: Member of the 2020 National Ranking as one of the best graduates in Computer Science Engineer in Spain. 
-      fecha: october 2020
-      enlace: https://drive.google.com/file/d/1yrMujmsLIE-Bayw-Cochkz9nViMiVISO/view?usp=sharing
-      detalles: Member of the 2020 National Ranking in Computer Science Engineer carried out by the *"Spanish Society of Academic Excellence (SEDEA) "* in which the best graduates in Spain in each of the degrees are included.
-    
-    - nombre: UVa-Santander Awards for Excellence in Graduate Studies
-      fecha: september 2020
-      enlace: https://drive.google.com/file/d/1R6fOvSrIW7QdrrIvWU8qIS5GEQX0W5wk/view?usp=sharing
-      detalles: Awards given by Banco Santander in recognition of the excellence of the graduates of the University of Valladolid..
-    
-    - nombre: First Prize “Hackerfest 2020” 
-      fecha: march 2020
-      enlace: https://drive.google.com/file/d/1NsJ2E_WYUHEsHem0ROaoNzu4Hxp0598j/view?usp=sharing
-      detalles: Hackathon celebrated at the University of Valladolid in order to create a software product focused on the resolution of different environmental challenges.
+    - nombre: Member of the 2020 National Ranking as one of the best graduates in Computer Engineering in Spain 
+      fecha: October 2020
+      detalles: Member of the 2020 National Ranking in Computer Engineering conducted by the *"Society of Spanish Academic Excellence (SEDEA)"*, which recognizes the top graduates in Spain in each degree.
 
-    - nombre: Speaker at the VIII Meeting on Democratic Values and the Armed Forces 
-      fecha: november 2019
-      enlace: https://drive.google.com/file/d/1ul6gcgqMQIw09XDwAK6yd8pb7YJLgj8H/view?usp=sharing
-      detalles: Event organized by the University of Valladolid with the theme "The ethical dimension of Artificial Intelligence". 
+    - nombre: UVa-Santander Excellence in Undergraduate Awards
+      fecha: September 2020
+      detalles: Awards given by Banco Santander recognizing the excellence of graduates from the University of Valladolid.
+
+    - nombre: First Prize "Hackerfest 2020" 
+      fecha: March 2020
+      detalles: Hackathon held at the University of Valladolid, where the creation of software focused on solving various environmental challenges was proposed.
+
+    - nombre: Speaker at the 8th Meeting on Democratic Values and Armed Forces 
+      fecha: November 2019
+      detalles: Event organized by the University of Valladolid with the theme "The Ethical Dimension of Artificial Intelligence."
     
     - nombre: Collaborator “SPIRE” 2019 
-      fecha: october 2019
-      enlace: https://drive.google.com/file/d/1HxLpZIFkSHzRbQA5bSZZhyKiAdN3Rv1e/view?usp=sharing
-      detalles: Collaborator and assistant of the 26th edition of the International Symposium "SPIRE" organized by the University of Valladolid and the University of A Coruña. 
+      fecha: October 2019
+      detalles: Collaborator and assistant at the 26th edition of the International “SPIRE” Conference, organized by the University of Valladolid and the University of A Coruña. 
     
-    - nombre: Speaker “Segovia Tech Train” 
-      fecha: march 2019 - Actuality
-      enlace: https://drive.google.com/file/d/1z7meW2PaBa1RSUzC903_IVMBhEtAf6uY/view?usp=sharing
-      detalles: Community formed by professionals from the IT sector whose objective is to establish a forum to discuss technological experiences and concerns, fomenting collective learning and feedback. 
+    - nombre: Speaker at “Segovia Tech Train” 
+      fecha: March 2019 - Present
+      detalles: Community created by IT professionals aimed at establishing a forum to discuss technological experiences and concerns, fostering collective learning and feedback. 
+
 cursos:
   titulo-seccion: Courses
   elementos:
-    - nombre: Certificate Expert Agile Coach
-      enlace: https://drive.google.com/file/d/1WevUI62uCXhuPQaXfPQ7FgvEPIhc3eN1/view?usp=sharing
-      fecha: may 2021
-    - nombre: Certificate Expert Scrum Master
-      enlace: https://www.europeanscrum.org/european-scrum-jose-manuel-simon-ramos.html?lang=en
-      fecha: march 2020
-    - nombre: Course of Machine Learning with TensorFlow
-      enlace: https://openwebinars.net/cert/ywGdG 
-      fecha: february 2020
-    - nombre: "Complete Course on Machine Learning: Data Science in Python"
-      enlace: https://www.udemy.com/certificate/UC-72D26A7P/ 
-      fecha: september 2019
 
-voluntariado:
-  titulo-seccion: Volunteering
-  elementos:
-    - nombre: Monitor "Club de Jóvenes Programadores".
-      entidad: University of Valladolid
-      enlace: 
-      fecha: january 2020 - july 2020
-      descripcion: Workshop for boys and girls of ESO and Bachillerato in which they carry out activities, exercises and games using the Python language.
+  - nombre: Databricks Certified Data Engineer Professional 
+    enlace: https://credentials.databricks.com/7aecf912-bc7f-45cd-a745-a6064c7694a8
+    fecha: July 2024
 
-    - nombre: Monitor "Puentes hacia el Empleo"
-      entidad: Spanish Cruz Roja
-      enlace:
-      fecha: october 2019 - november 2019
-      descripcion: Workshop for unemployed women to provide them with basic computer skills to facilitate their insertion into the workplace.
+  - nombre: Databricks Certified Data Engineer Associate 
+    enlace: https://credentials.databricks.com/f44e880a-d6b9-45c3-b188-c763c6437dbd
+    fecha: February 2024
 
-    - nombre: Monitor "Scratch Day"
-      entidad: University of Valladolid
-      enlace: https://drive.google.com/file/d/1ENhQZYapE8VmnzzNYn3ip6MVuD0ni5s8/view?usp=sharing
-      fecha: may 2018
-      descripcion: A day of workshops, games and activities for children between 6 and 15 years old to introduce them to the world of programming through the "Scratch" language.
+  - nombre: Academy Accreditation - Databricks Lakehouse Fundamentals 
+    enlace: https://credentials.databricks.com/de8c5e22-9835-41c7-88ac-caa484aa1e6c
+    fecha: December 2023
+  
+  - nombre: Academy Accreditation - Platform Administrator 
+    enlace: https

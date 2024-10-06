@@ -38,7 +38,7 @@ p {
 
 .wrapper {
   display: grid;
-  grid-template-columns: repeat(10, 1fr);
+  grid-template-columns: 34% 66%;
   background: $theme-color;
   max-width: 1000px;
   margin: 0 auto;
@@ -47,7 +47,6 @@ p {
 }
 
 .sidebar-wrapper {
-  grid-column: span 3;
   //order: 1; // Order 0 --> Sidebar Derecha; Order 2 --> Izquierda
   background: $theme-color;
   color: #fff;
@@ -83,7 +82,7 @@ p {
 
   .avatar {
     //used for profile image
-    max-width: 170px;
+    max-width: 190px;
     margin-bottom: 15px;
     border: 2px solid $smoky-white;
     border-radius: 100%;
@@ -188,7 +187,6 @@ p {
 }
 
 .main-wrapper {
-  grid-column: span 7;
   background: #fff;
   padding: 60px;
   hr{
